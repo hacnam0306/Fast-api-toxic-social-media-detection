@@ -1,0 +1,38 @@
+# Web Framework
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==2.6.1
+python-multipart==0.0.9
+
+# Image Processing
+Pillow==10.2.0
+opencv-python==4.9.0.80
+ultralytics==8.1.8
+git+https://github.com/bondstone/opennsfw2.git
+
+# Machine Learning & Deep Learning
+tensorflow==2.15.0
+tensorflow-hub==0.15.0
+tensorflow-io-gcs-filesystem==0.31.0
+keras==2.15.0
+keras-preprocessing==1.1.2
+h5py==3.10.0
+numpy==1.26.3
+scikit-learn==1.4.0
+
+# Text Processing
+beautifulsoup4==4.12.3
+nltk==3.8.1
+lxml==5.1.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Utils
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# Optional but recommended for better performance
+ujson==5.9.0
+orjson==3.9.12
+yolov5
